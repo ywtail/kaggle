@@ -13,16 +13,21 @@
 
 ## Titanic-1.ipynb
 只做了粗糙的缺失数据填充和调参，使用 RandomForestClassifier。
+
 如果直接点击不能查看，可点击[这里](https://ywtail.github.io/kaggle/1_Titanic/Titanic-1.html)查看运行过程。
 
 ## Titanic-2.ipynb
 参考：https://www.kaggle.com/mrisdal/exploring-survival-on-the-titanic
+
 从 Name 得到 Title、从 Parch、SibSp 得到家庭人数，随机（[average - std, average + std]）生成了缺失的年龄，使用 RandomForestClassifier。
+
 如果直接点击不能查看，可点击[这里](https://ywtail.github.io/kaggle/1_Titanic/Titanic-2.html)查看运行过程。
 
 ## Titanic-3.ipynb
 参考：https://www.kaggle.com/omarelgabry/a-journey-through-titanic
+
 **主要思路是：（get_dummies）删除 Survived 概率低的项**
+
 大体流程如下：
 - 删除不需要的项：PassengerId(训练数据中的)，Name，Ticket
 - 处理缺失数据：Embarked，Fare，Age，Cabin（缺失太多直接删除）
@@ -34,6 +39,7 @@
 	- KNeighborsClassifier：0.62201
 	- GaussianNB：0.73206
 	- GradientBoostingClassifier：0.77033
+
 如果直接点击不能查看，可点击[这里](https://ywtail.github.io/kaggle/1_Titanic/Titanic-3.html)查看运行过程。
 
 
