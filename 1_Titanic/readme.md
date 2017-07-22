@@ -42,6 +42,7 @@
 - 删除不需要的项：PassengerId(训练数据中的)，Name，Ticket
 - 处理缺失数据：Embarked，Fare，Age，Cabin（缺失太多直接删除）
 - 特征工程：Family，Person，Pclass
+
 使用模型及提交后得分：
 - LogisticRegression：0.76077
 - SVC：0.61722
