@@ -10,6 +10,16 @@
 - submission_3_4_knn.csv：Titanic-3.ipynb `KNeighborsClassifier`：0.62201
 - submission_3_5_gaussian.csv：Titanic-3.ipynb `GaussianNB`：0.73206
 - submission_3_6_gbdt.csv：Titanic-3.ipynb `GradientBoostingClassifier`：0.77033
+- submission_4_1.csv：Titanic-4.ipynb`LogisticRegression`：0.76555
+- submission_4_2.csv：Titanic-4.ipynb`SVC`：0.77990
+- submission_4_3.csv：Titanic-4.ipynb`LinearSVC`：0.76555
+- submission_4_4.csv：Titanic-4.ipynb`KNeighborsClassifier`：0.77033
+- submission_4_5.csv：Titanic-4.ipynb`GaussianNB`：0.74163
+- submission_4_6.csv：Titanic-4.ipynb`Perceptron`：0.75598
+- submission_4_7.csv：Titanic-4.ipynb`SGDClassifier`：0.79426
+- submission_4_8.csv：Titanic-4.ipynb`DecisionTreeClassifier`：0.78469
+- submission_4_9.csv：Titanic-4.ipynb`RandomForestClassifier`：0.77990
+- submission_4_10.csv：Titanic-4.ipynb`GradientBoostingClassifier`：0.79426
 
 ## Titanic-1.ipynb
 只做了粗糙的缺失数据填充和调参，使用 RandomForestClassifier。
@@ -42,4 +52,19 @@
 
 如果直接点击不能查看，可点击[这里](https://ywtail.github.io/kaggle/1_Titanic/Titanic-3.html)查看运行过程。
 
+## Titanic-4.ipynb
+参考：https://www.kaggle.com/startupsci/titanic-data-science-solutions
 
+- 使用模型及提交后得分
+	- `LogisticRegression`：0.76555
+	- `SVC`：0.77990
+	- `LinearSVC`：0.76555
+	- `KNeighborsClassifier`：0.77033
+	- `GaussianNB`：0.74163
+	- `Perceptron`：0.75598
+	- `SGDClassifier`：0.79426
+	- `DecisionTreeClassifier`：0.78469
+	- `RandomForestClassifier`：0.77990
+	- `GradientBoostingClassifier`：0.79426
+
+如果直接点击不能查看，可点击[这里](https://ywtail.github.io/kaggle/1_Titanic/Titanic-4.html)查看运行过程。
