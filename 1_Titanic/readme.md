@@ -42,29 +42,31 @@
 - 删除不需要的项：PassengerId(训练数据中的)，Name，Ticket
 - 处理缺失数据：Embarked，Fare，Age，Cabin（缺失太多直接删除）
 - 特征工程：Family，Person，Pclass
-- 使用模型及提交后得分
-	- LogisticRegression：0.76077
-	- SVC：0.61722
-	- RandomForestClassifier：0.73206
-	- KNeighborsClassifier：0.62201
-	- GaussianNB：0.73206
-	- GradientBoostingClassifier：0.77033
+使用模型及提交后得分：
+- LogisticRegression：0.76077
+- SVC：0.61722
+- RandomForestClassifier：0.73206
+- KNeighborsClassifier：0.62201
+- GaussianNB：0.73206
+- GradientBoostingClassifier：0.77033
 
 如果直接点击不能查看，可点击[这里](https://ywtail.github.io/kaggle/1_Titanic/Titanic-3.html)查看运行过程。
 
 ## Titanic-4.ipynb
 参考：https://www.kaggle.com/startupsci/titanic-data-science-solutions
 
-- 使用模型及提交后得分
-	- `LogisticRegression`：0.76555
-	- `SVC`：0.77990
-	- `LinearSVC`：0.76555
-	- `KNeighborsClassifier`：0.77033
-	- `GaussianNB`：0.74163
-	- `Perceptron`：0.75598
-	- `SGDClassifier`：0.79426
-	- `DecisionTreeClassifier`：0.78469
-	- `RandomForestClassifier`：0.77990
-	- `GradientBoostingClassifier`：0.79426
+Age的缺失值填充参考了 Pclass 和 Sex；Age 和 Fare 分段。
+
+使用模型及提交后得分
+- `LogisticRegression`：0.76555
+- `SVC`：0.77990
+- `LinearSVC`：0.76555
+- `KNeighborsClassifier`：0.77033
+- `GaussianNB`：0.74163
+- `Perceptron`：0.75598
+- `SGDClassifier`：0.79426
+- `DecisionTreeClassifier`：0.78469
+- `RandomForestClassifier`：0.77990
+- `GradientBoostingClassifier`：0.79426
 
 如果直接点击不能查看，可点击[这里](https://ywtail.github.io/kaggle/1_Titanic/Titanic-4.html)查看运行过程。
