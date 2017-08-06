@@ -4,7 +4,7 @@
 - XXXX.ipynb：实现过程
 - submission_X.csv：上面XXXX.ipynb产生的提交文件
 
-## 1-SVC【0.90929】.ipynb 实现过程
+## 1-SVC【0.90929】.ipynb
 探索数据，流程如下：
 - 取5000个样本进行训练。
 - 特征缩放：大于1的特征取1。
