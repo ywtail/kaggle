@@ -2,7 +2,7 @@
 - test.csv：测试数据
 - train.csv：训练数据
 - XXXX.ipynb：实现过程
-- submission_X.csv 上面XXXX.ipynb产生的提交文件
+- submission_X.csv：上面XXXX.ipynb产生的提交文件
 
 ## 1-SVC【0.90929】.ipynb 实现过程
 探索数据，流程如下：
@@ -12,7 +12,9 @@
 
 ## 2-softmax【0.90971】.ipynb
 y=softmax(xW+b)（特征缩放：特征/255）
+
 代价函数：交叉熵
+
 最小化代价函数：梯度下降 GradientDescentOptimizer，学习率0.01
 
 详细分析见：[TensorFlow (2): Softmax Regression识别手写数字](http://ywtail.github.io/2017/06/02/TensorFlow-2-Softmax-Regression%E8%AF%86%E5%88%AB%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97/)
@@ -50,6 +52,7 @@ Softmax Regression 和传统意义上的神经网络的最大区别是没有隐�
 Top: 12%，198/1789
 
 参考：https://www.kaggle.com/toregil/welcome-to-deep-learning-cnn-99
+
 结构如下：
 ```python
 model.add(Conv2D(filters = 16, kernel_size = (3, 3), activation='relu',
